@@ -36,8 +36,7 @@ Deploy → Enumerate → Exploit → Document → Destroy → Verify $0
 
 ## Environment
 
-- Attacker OS: Kali Linux
-- AWS CLI profile: isolated `cloudgoat` IAM user (no console access)
+- Attacker OS: Arch Linux
 - Cost controls: AWS Budget alert at $5/month + CloudWatch billing alarm at $10
 
 ---
