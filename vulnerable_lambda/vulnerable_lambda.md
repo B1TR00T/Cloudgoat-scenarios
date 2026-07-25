@@ -19,7 +19,7 @@ However, in this section the script will get a policy from the list and has publ
 But before that I checked the db but found only the policies
 ![](09_db_content.png)
 I used SQL injection while invoking the lambda funciton which resulted in giving admin privs to user bilbo
-![[screenshots/10_payload.png]]
+![](screenshots/10_payload.png)
 ![](screenshots/11_lambda_invoke.png)
 As shown here no bilbo can use much more services
 ![](screenshots/12_shadowperms_admin.png)
