@@ -22,8 +22,9 @@ I used SQL injection while invoking the lambda funciton which resulted in giving
 ![[screenshots/10_payload.png]]
 ![](screenshots/11_lambda_invoke.png)
 As shown here no bilbo can use much more services
-![[screenshots/12_shadowperms_admin.png]]
+![](screenshots/12_shadowperms_admin.png)
+
 Since we have more power now. I checked some services like secretsmanager and found one!
-![[screenshots/13_secret_found.png]]
+![](screenshots/13_secret_found.png)
 And in that secret I found the flag value.
-![[screenshots/14_flag_value.png]]
+![](screenshots/14_flag_value.png)
