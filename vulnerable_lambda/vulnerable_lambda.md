@@ -19,11 +19,11 @@ However, in this section the script will get a policy from the list and has publ
 But before that I checked the db but found only the policies
 ![](09_db_content.png)
 I used SQL injection while invoking the lambda funciton which resulted in giving admin privs to user bilbo
-![[10_payload.png]]
-![](11_lambda_invoke.png)
+![[screenshots/10_payload.png]]
+![](screenshots/11_lambda_invoke.png)
 As shown here no bilbo can use much more services
-![[12_shadowperms_admin.png]]
+![[screenshots/12_shadowperms_admin.png]]
 Since we have more power now. I checked some services like secretsmanager and found one!
-![[13_secret_found.png]]
+![[screenshots/13_secret_found.png]]
 And in that secret I found the flag value.
-![[14_flag_value.png]]
+![[screenshots/14_flag_value.png]]
